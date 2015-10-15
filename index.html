@@ -40,7 +40,7 @@ margin:0 20px 0 0;
 }
 #wrapper {
 background:#3FB4FE;
-padding:55px 0 10px 0;
+padding:30px 0 50px 0;
 text-align:center;
 }
 #wrapper span {
@@ -51,11 +51,15 @@ margin:15px 0 0 10px;
 margin:2px 0 0 0;
 border-radius:4px;
 }
+.twitter {
+padding:0 40px 0 0;
+width:400px;
+}
 .donate:hover {opacity:0.8;}
 .donate:active {opacity:0.6;}
 .icons {
 margin-top:-1px;
-margin-bottom:50px;
+margin-bottom:25px;
 }
 .icons img {
 height:140px;
@@ -78,6 +82,29 @@ height:100px;
 width:100px;
 margin:10px 15px 0 15px;
 }
+.button {
+background:#ffcc00;
+display:block;
+width:250px;
+height:20px;
+padding:22px 0 20px 0;
+color:#555;
+border-radius:4px;
+text-decoration:none;
+text-align:center;
+border-bottom: 7px solid #d3af1f;
+font-weight:bold;
+font-size:16px;
+transition: all 0.5s ease; 
+}
+.button:hover {
+background:#E9C01D;
+transition: all 0.5s ease; 
+}
+.button:active {
+background:#d3af1f;
+transition: all 0.5s ease; 
+}
 </style>
 <link rel="icon" href="http://lh6.googleusercontent.com/-ZTp2a0-2ayA/VX12jkTUghI/AAAAAAAAACA/N2wHopQXiEo/s16-no/favicon.ico">
 </head>
@@ -90,27 +117,29 @@ margin:10px 15px 0 15px;
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="6HUYZKL5NHPZ4">
-<input type="image" src="https://cloud.githubusercontent.com/assets/12869628/10374261/e87eb3f4-6dfa-11e5-9b26-ce6eb7bb835c.png" border="0" name="submit" class="donate" alt="PayPal - The safer, easier way to pay online!">
+<input type="image" src="https://cloud.githubusercontent.com/assets/12869628/10374261/e87eb3f4-6dfa-11e5-9b26-ce6eb7bb835c.png" border="0" name="submit" class="donate" alt="Donate PayPal if like my work">
 </form>
 </div>
 </header>
 <div id="wrapper">
 <table>
 <tr>
-<td style="padding:0 40px 0 0;width:400px;">
+<td class="twitter">
 <a class="twitter-timeline"  href="https://twitter.com/uxwebexp" data-widget-id="651977860450791426">Твиты от @uxwebexp</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>      
 </td>
 <td>
 <div class="icons">
-<a href="https://twitter.com/uxwebexp" target="_blank"><img src="https://cloud.githubusercontent.com/assets/12869628/10375158/942411e6-6dff-11e5-985d-d7aa282f1dca.png" alt="Twitter"></a>
-<a href="https://plus.google.com/u/0/b/103226686065089118839/103226686065089118839" target="_blank"><img src="https://cloud.githubusercontent.com/assets/12869628/10357269/c553eb14-6d88-11e5-9f82-a42d3f46d6f5.png" alt="GPlus"></a><br>
 <a href="https://www.upwork.com/companies/~014af6ac8c3592e3a6" target="_blank"><img src="https://cloud.githubusercontent.com/assets/12869628/8389782/e6c8bb66-1c80-11e5-8d41-3bdc705e61ff.png" alt="UPWork"></a>
 <a href="https://www.freelancer.com/u/designsites.html" target="_blank"><img src="https://cloud.githubusercontent.com/assets/12869628/10357859/e9e024fa-6d8f-11e5-9df5-254cff80e7b8.png" alt="Freelancer"></a>
+<br>
+<a href="https://twitter.com/uxwebexp" target="_blank"><img src="https://cloud.githubusercontent.com/assets/12869628/10375158/942411e6-6dff-11e5-985d-d7aa282f1dca.png" alt="Twitter"></a>
+<a href="https://plus.google.com/u/0/b/103226686065089118839/103226686065089118839" target="_blank"><img src="https://cloud.githubusercontent.com/assets/12869628/10357269/c553eb14-6d88-11e5-9f82-a42d3f46d6f5.png" alt="GPlus"></a>
 </div>
 </td>
 </tr>
 </table>  
+<center><a href="mailto:uiwebdev@hotmail.com" class="button">Make an order</a></center>
 </div>
 <div id="footer">
 <h1>Skill set</h1>
